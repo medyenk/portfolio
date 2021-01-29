@@ -1,11 +1,25 @@
-import './App.css';
-// import { Link, Switch, Route } from 'react-router-dom'; 
+import "./App.css";
+import NavBar from "./components/NavBar";
+import About from "./components/About";
+import Project from "./components/Project"
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function App() {
   return (
     <div className="App">
-      <h1>MEDYEN</h1>
-      <p>Hello, I am Medyen Aljumaili and I am a Full Stack freelance developer.</p>
+      <Container>
+        <Row>
+          <Col>
+            <NavBar />
+          </Col>
+          <Col md={9}>
+            <About />
+            <Project />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

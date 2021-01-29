@@ -1,0 +1,10 @@
+.sidebar {
+    background-color: rgba(90, 90, 90, 0.4);
+    min-height: 100vh;
+    padding-top: 15px;
+}
+
+.headshot {
+    width: 171px;
+    padding-bottom: 15px;
+}
