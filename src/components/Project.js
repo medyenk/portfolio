@@ -33,7 +33,7 @@ export default class Project extends Component {
       return (
         <Container fluid className="projects">
           <Row>
-            <h1>Projects</h1>
+            <h4>Projects</h4>
           </Row>
           <Row>
             {this.state.projects.map((item) => (

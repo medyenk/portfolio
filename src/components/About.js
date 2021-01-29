@@ -12,11 +12,8 @@ export default class About extends Component {
           <Row>
             <Col>
               <br />
-              <h2>Hi! I'm Medyen, and I'm a fullstack web developer.</h2>
+              <h2>Hi! I'm Medyen, and I'm a Full Stack web developer.</h2>
             </Col>
-          </Row>
-          <Row>
-            <Col><h6>About me</h6></Col>
           </Row>
           <Row>
             <Col><p>I graduated from the University of Warwick with a Masters in Mechanical Engineering, however I soon realised that I never want to calculate the forces on a structure again.

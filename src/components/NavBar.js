@@ -3,7 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import Breadcrumb from "react-bootstrap/Breadcrumb";
+import Nav from "react-bootstrap/Nav";
+import SocialButtons from './Socials'
 import "../css/NavBar.css";
 
 export default class NavBar extends Component {
@@ -18,20 +19,21 @@ export default class NavBar extends Component {
           </Row>
           <Row>
             <Col>
-              <h3>Medyen Kadhum</h3>
+              <h4>Medyen Kadhum</h4>
             </Col>
           </Row>
           <Row>
             <Col>
-              <Breadcrumb>
-                <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-              </Breadcrumb>
-              <Breadcrumb>
-                <Breadcrumb.Item href="#">Projects</Breadcrumb.Item>
-              </Breadcrumb>
-              <Breadcrumb>
-                <Breadcrumb.Item href="#">Contact</Breadcrumb.Item>
-              </Breadcrumb>
+              <Nav defaultActiveKey="#" className="flex-column">
+                <Nav.Link href="#">Introduction</Nav.Link>
+                <Nav.Link eventKey="link-1">Projects</Nav.Link>
+                <Nav.Link eventKey="link-2">Contact</Nav.Link>
+              </Nav>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <SocialButtons />
             </Col>
           </Row>
         </Container>

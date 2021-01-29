@@ -10,7 +10,7 @@ h5, p {
 }
 
 .outline {
-    box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 1px #ddd;
     padding: 5px;
     border: 10px;
     
